@@ -17,6 +17,7 @@ from .enums import HistoricalKlinesType
 
 class BaseClient:
 
+    GOOGLE_URL = "https://www.google.com"
     API_URL = 'https://api.binance.{}/api'
     API_TESTNET_URL = 'https://testnet.binance.vision/api'
     MARGIN_API_URL = 'https://api.binance.{}/sapi'
